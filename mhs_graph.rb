@@ -198,18 +198,18 @@ def show_condition(a)
     h[i][x-1] = 1
     h[i][y-1] = 1
   end
-  print "| |"
+  print "|   |"
   a.size.times do |j|
     print " #{('A'.ord + j).chr} |"
   end
   puts
-  print "|-|"
+  print "|---|"
   a.size.times do |j|
-    print ":-:|"
+    print "---|"
   end
   puts
   $max.times do |i|
-    print "|#{i+1}|"
+    print "| #{i+1} |"
     a.size.times do |j|
       if h[j].has_key?(i)
         print " O |"

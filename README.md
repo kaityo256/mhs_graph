@@ -20,13 +20,13 @@ It generates the input condition with table format of markdown and minimal hitti
     $ ruby mhs_ruby.rb 5 2
 
     Input Condition
-    | | A | B | C | D | E | F | G |
-    |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-    |1| - | O | - | O | - | O | O |
-    |2| O | - | O | O | - | - | - |
-    |3| O | O | - | - | O | - | - |
-    |4| - | - | O | - | O | O | - |
-    |5| - | - | - | - | - | - | O |
+    |   | A | B | C | D | E | F | G |
+    |---|---|---|---|---|---|---|---|
+    | 1 | - | O | - | O | - | O | O |
+    | 2 | O | - | O | O | - | - | - |
+    | 3 | O | O | - | - | O | - | - |
+    | 4 | - | - | O | - | O | O | - |
+    | 5 | - | - | - | - | - | - | O |
 
     Minimal Hitting Sets
     4,2,1
@@ -50,13 +50,13 @@ Suppose you want to open a pizza shop with delivery service at some city. The ci
 
 Here is an example.
 
-| | A | B | C | D | E | F | G |
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|1| - | O | - | O | - | O | O |
-|2| O | - | O | O | - | - | - |
-|3| O | O | - | - | O | - | - |
-|4| - | - | O | - | O | O | - |
-|5| - | - | - | - | - | - | O |
+|   | A | B | C | D | E | F | G |
+|---|---|---|---|---|---|---|---|
+| 1 | - | O | - | O | - | O | O |
+| 2 | O | - | O | O | - | - | - |
+| 3 | O | O | - | - | O | - | - |
+| 4 | - | - | O | - | O | O | - |
+| 5 | - | - | - | - | - | - | O |
 
 
 There are seven area and five candidates. The candidate-1 can cover B, D, F, and G, while the candidate-5 can cover only G.
